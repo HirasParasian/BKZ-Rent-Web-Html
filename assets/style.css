@@ -81,11 +81,6 @@ body {
   margin-top: 54px;
 }
 
-footer.footer {
-
-  
-  
-}
 
 footer{
   background-color: #BF9270;
@@ -284,11 +279,12 @@ footer.footer .link-social i {
   text-align: left;
   color: #393939;
 }
-nav.navbar button.btn-login{
+nav.navbar a.btn-login{
   border: 2px solid #BF9270;
-  background-color: white;
+  background-color:#FFEDDB;
   color: #BF9270;
   font-size: 15px;
+  text-align: center;
   font-weight: 400;
   width: 132px;
   height: 44px;
@@ -296,7 +292,7 @@ nav.navbar button.btn-login{
   margin-right: 18px;
 }
 
-nav.navbar button.btn-register{
+nav.navbar a.btn-register{
   background-color: #BF9270;
   border-color: #BF9270 solid;
   color: #FFEDDB;
@@ -306,7 +302,8 @@ nav.navbar button.btn-register{
   height: 44px;
   border-radius: 10px;
   border: none;
-  margin-right:98px;
+  margin-right:98px; 
+  text-align:center; 
 }
 
 header.header-home{
@@ -465,7 +462,9 @@ header.header-home .header-content .search-vehicles{
   font-size: 18px;
 }
 
-
+nav{
+  color: black;
+}
 @media (max-width: 500px) {
   .header-forgot .header-content {
     padding: 0 10px;
