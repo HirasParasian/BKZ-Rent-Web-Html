@@ -465,6 +465,46 @@ header.header-home .header-content .search-vehicles{
 nav{
   color: black;
 }
+
+.input-group input.form-control{
+  border: none;
+} 
+
+.input-group span.input-group-text{
+  border: none;
+} 
+.input-group{
+  border: solid 1px;
+  width : 269px;
+}
+
+.mail{
+  font-size: 30px;
+  color: #BF9270;
+  margin-left: 49px;
+}
+
+.img-profile-login{
+ margin-left: 40px;
+ margin-right: 95px;
+}
+
+.carousel-caption{
+  bottom: 0%;
+  font-family: 'Playfair Display', serif;
+}
+.text-top h5{
+  font-size: 96px;
+}
+.text-bottom{
+  font-size: 24px;
+  margin-top: 191px;
+  margin-bottom: 120px;
+  font-family: 'Nunito', sans-serif;
+}
+.carousel-item img{
+  filter: brightness(50%);
+}
 @media (max-width: 500px) {
   .header-forgot .header-content {
     padding: 0 10px;
@@ -477,4 +517,9 @@ nav{
   .header-forgot .header-content form div button.button-send {
     width: 100%;
   }
+}
+
+.carousel-indicators li {
+    background-color:red ;
+  
 }
