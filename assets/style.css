@@ -119,6 +119,9 @@ footer.footer .link-social i {
 
 /***** Login *****/
 
+.header-login .header-content .row .header-right span {
+display: none;
+}
 
 .header-login {
   background-repeat: no-repeat;
@@ -505,7 +508,7 @@ nav{
 .carousel-item img{
   filter: brightness(50%);
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .header-forgot .header-content {
     padding: 0 10px;
   }
@@ -517,9 +520,104 @@ nav{
   .header-forgot .header-content form div button.button-send {
     width: 100%;
   }
+
+  /***** For Login *****/
+  .header-login .header-content .header-left {
+    display: none;
+  }
+
+  .header-login .header-content {
+    padding: 0 10px;
+  }
 }
 
-.carousel-indicators li {
-    background-color:red ;
-  
+@media (max-width: 500px) {
+  .header-login .header-content .header-right {
+    background-image: url(../assets/images/login-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-login .header-content .header-right form div button.btn-login {
+    background-color: #BF9270;
+    color: #FFEDDB;
+    font-size: 12px;
+    font-weight: 900;
+    width: 317px;
+    height: 51px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 57px;
+    margin-left: 0px;
+  }
+  /***** Button signUp at Login *****/
+.header-login .header-content .header-right form div button.btn-signup {
+display: none;
+}
+.header-login .header-content .header-right form p.signupnow {
+  font-size: 12px;
+  display:inline-block;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  }
+/***** Button Google at Login *****/
+.header-login .header-content .header-right form div button.btn-google {
+  background-color: #EDCDBB;
+  color: #FFEDDB;
+  font-size: 12px;
+  font-weight: 900;
+  width: 317px;
+  height: 51px;
+  border-radius: 10px;
+  border: none;
+}
+
+.header-login .header-content .header-right form div input {
+  background: rgba(255, 255, 255, 0.5);
+  width: 317px;
+  height: 51px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 34px;
+}
+
+.header-login .header-content .header-right form div input::placeholder {
+  color: #BF9270;;
+  font-size: 12px;
+  padding-left: 41px;
+}
+/***** Tulisan Login *****/
+
+.header-login .header-content .row .header-right span {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 95px;
+  margin-left: 25px;
+  margin-bottom: 179px;
+  color: #BF9270;
+  }
+
+  .header-login .header-content .header-right form p.forgot {
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 49px;
+    margin-left:75px;
+  }
+
+  .header-login .header-content .row .header-right h1 {
+    display: none;
+
+    }
+
+  .header-right h2 {
+      display: none;
+    }
+    .footer2{
+      display: none;
+    }
 }
