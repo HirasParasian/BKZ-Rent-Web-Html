@@ -123,6 +123,10 @@ footer.footer .link-social i {
 display: none;
 }
 
+.header-login .header-content .header-right form p.signupnow {
+  display: none;
+  }
+
 .header-login {
   background-repeat: no-repeat;
   background-size: cover;
