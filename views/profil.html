@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div id="navbar-after-login"></div>
+  <!--END NAVBAR-->
+  <header class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="profile-text">Profile</h4>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <img class="profil-image" src="../assets/images/iamge-profil-page.png" alt="">
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <h2 class="profile-name">
+          Samantha Doe
+        </h2>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="profile-detail">
+          <p>samanthadoe@gmail.com</p>
+          <p>+62833467823</p>
+          <p>Has been active since 2013</p>
+        </div>
+      </div>
+      <div class="col-12 profile-gender d-flex justify-content-center">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Female
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <form>
+          <label class="profile-contacts" for="Contacts">Contacts</label>
+          <div class="form-group">
+            <label class="text-contact">Email address :</label>
+            <input type="email"
+              class="form-contact form-control border-dark bg-transparent border-top-0 border-start-0 border-end-0"
+              aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label class="text-contact">Address :</label>
+            <input type="text"
+              class="form-contact form-control border-dark bg-transparent border-top-0 border-start-0 border-end-0"
+              placeholder="Address">
+          </div>
+          <div class="form-group">
+            <label class="text-contact">Mobile Number :</label>
+            <input type="text"
+              class="form-contact form-control border-dark bg-transparent border-top-0 border-start-0 border-end-0"
+              placeholder="Mobile Number">
+          </div>
+        </form>
+      </div>
+      <div class="col-12">
+        <label class="profile-contacts" for="Contacts">Identity</label>
+        <div class="row">
+          <div class="col">
+            <label class="text-contact">Display Name :</label>
+            <input type="text"
+              class="form-contact form-control border-dark bg-transparent border-top-0 border-start-0 border-end-0"
+              placeholder="Display Name" aria-label="Display Name">
+          </div>
+          <div class="col-1"></div>
+          <div class="col">
+            <label for="date" class="col-sm-1 col-form-label">DD/MM/YY</label>
+            <input id="datepicker" type="text"
+              class="form-contact form-control border-dark bg-transparent border-top-0 border-start-0 border-end-0 ">
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <form class="d-flex justify-content-between form-button-profile">
+            <a href="#"><button type="button" class="btn-profile-save btn "> Save Change </button></a>
+            <a href="#"><button type="button" class="btn-profile-edit-password btn "> Edit Password </button></a>
+            <a href="#"><button type="button" class="btn-profile-cancel btn "> Cancel </button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+
+
+  <!--START FOOTER-->
+  <div id="footer"></div>
+  <!--END FOOTER-->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $.get('../helpers/navbar-after-login.html', (res) => {
+      $('#navbar-after-login').html(res)
+    })
+  });
+
+  $(document).ready(function () {
+    $.get('../helpers/footer.html', (res) => {
+      $('#footer').html(res)
+    })
+  });
+
+  $(document).ready(function () {
+    $('#datepicker').datepicker();
+
+  });
+</script>
+</script>
+
+</html>

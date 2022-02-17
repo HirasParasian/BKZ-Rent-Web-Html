@@ -291,7 +291,13 @@ nav.navbar{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* .nav-about-before{
+  margin-right: 46px;
+} */
 
+.nav-menu-before{
+  margin: 0 17.5px;
+}
 nav.navbar button.btn-login{
   border: 2px solid #BF9270;
   background-color:#FFEDDB;
@@ -303,7 +309,13 @@ nav.navbar button.btn-login{
   height: 44px;
   border-radius: 10px;
   margin-right: 18px;
+  margin-left: 46px;
   
+}
+nav.navbar a.navbar img.rounded-pill{
+  width:40px;
+  margin-left: 136px; 
+  margin-right: 515px;
 }
 
 nav.navbar button.btn-register{
@@ -316,7 +328,6 @@ nav.navbar button.btn-register{
   height: 44px;
   border-radius: 10px;
   border: none;
-  margin-right:98px; 
   text-align:center; 
 }
 
@@ -542,6 +553,90 @@ nav{
   }
 }
 
+  /***** For Profile *****/
+.profile-text{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.profil-image{
+  width: 200px;
+  height: 200px;
+  margin-top: 46px;
+  border-radius: 100%;
+}
+.profile-name{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 53px;
+}
+.profile-detail{
+  margin-top: 35px;
+}
+.profile-detail p{
+  text-align: center;
+  margin: 0px;
+}
+.profile-gender{
+  margin-top: 100px;
+}
+
+.profile-gender .form-check{
+  margin: 0 85px;
+}
+.profile-contacts{
+  font-weight: 900;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.profile-contacts .form-group{
+  font-weight: 400;
+  font-size: 24px;
+  ;
+
+}
+
+.text-contact{
+  margin-bottom: 10px;
+  color:#9F9F9F;
+}
+
+.form-contact{
+  margin-bottom: 10px;
+}
+.form-button-profile{
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.btn-profile-cancel{
+  background-color: rgba(203, 203, 212, 0.27);
+  width: 322px;
+  height: 89px;
+  font-weight: 900;
+  font-size: 24px;
+  color: #BF9270;
+}
+
+.btn-profile-edit-password{
+  width: 322px;
+  height: 89px;
+  background-color: #393939;
+  font-weight: 900;
+  font-size: 24px;
+  color: #FFEDDB;
+}
+
+.btn-profile-save{
+  background-color:#EDCDBB;
+  width: 322px;
+  height: 89px;
+  font-weight: 900;
+  font-size: 24px;
+  color: #BF9270;
+}
 @media (max-width: 500px) {
   .header-login .header-content .header-right {
     background-image: url(../assets/images/login-mobile.png);
@@ -636,26 +731,43 @@ display: none;
 /***** Small devices (landscape phones, 576px and up) *****/
 
 
-@media (min-width: 576px) { 
-
+@media (max-width: 576px) { 
+  footer.footer .row.text {
+    display: none;
+  }
  }
 
 /***** Medium devices (tablets, 768px and up) *****/
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
   
  }
 
 /***** Large devices (desktops, 992px and up) *****/
-@media (min-width: 992px) { 
-  
+@media (max-width: 992px) { 
+  .footer-list{
+    display: none;
+  }
+ }
+ footer.footer{
+  text-align: center;
  }
 
+ footer.footer .description {
+  text-align: center;
+  width: auto;
+}
+footer.footer .row.text {
+  margin-bottom: 78px;
+  padding-top: 69px;
+  text-align: center;
+}
+
 /***** X-Large devices (large desktops, 1200px and up) *****/
-@media (min-width: 1200px) { 
+@media (max-width: 1200px) { 
   
  }
 
 /***** XX-Large devices (larger desktops, 1400px and up) *****/
-@media (min-width: 1400px) { 
+@media (max-width: 1400px) { 
   
  }

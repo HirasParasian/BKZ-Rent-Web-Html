@@ -6,58 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vehicle Rent</title>
-  <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <!--Custom CSS-->
-  <link rel="stylesheet" href="../assets/style.css">
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="../assets/style.css">
 </head>
 
 <body>
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-      <img src="../assets/images/logo.png" alt="Avatar Logo" style="width:40px;margin-left: 136px; margin-right: 515px;"
-        class="rounded-pill">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="login-nav navbar-nav">
-        <li class="nav-item active">
-          <a style="margin-right: 35px;" class="margin-nav nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a style="margin-right: 35px;" class=" nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Vehicle Type
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Bike</a>
-            <a class="dropdown-item" href="#">Motorbike</a>
-            <a class="dropdown-item" href="#">Car</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a style="margin-right: 35px;" class="  nav-link" href="#">History</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-    </div>
-    <a href="../views/login.html"><button type="button" class="btn-login btn btn-info"> Login</button></a>
-    <a href="../views/signup.html"><button type="button" class="btn-register btn btn-info">Register</button></a>
-  </nav>
+  <div id="navbar"></div>
   <!--END NAVBAR-->
   <!--START  HEADER-->
   <header class="header-home">
@@ -199,56 +170,22 @@
   <!--END BODY-->
 
   <!--START FOOTER-->
-  <footer class="footer">
-    <div class="row text">
-      <div class="col">
-        <div>
-          <img src="../assets/images/logo.png" alt="Logo" />
-        </div>
-        <div class="description">Plan and book your perfect trip with expert advice, travel tips for vehicle information
-          from us</div>
-        <div>©2020 Vehicle Rental Center. All rights reserved</div>
-      </div>
-      <div class="col-md-2">
-        <h5>Destination</h5>
-        <ul>
-          <li>Bali</li>
-          <li>Yogyakarta</li>
-          <li>Jakarta</li>
-          <li>Kalimantan</li>
-          <li>Malang</li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5>Destination</h5>
-        <ul>
-          <li>Bali</li>
-          <li>Yogyakarta</li>
-          <li>Jakarta</li>
-          <li>Kalimantan</li>
-          <li>Malang</li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5>Destination</h5>
-        <ul>
-          <li>Bali</li>
-          <li>Yogyakarta</li>
-          <li>Jakarta</li>
-          <li>Kalimantan</li>
-          <li>Malang</li>
-        </ul>
-      </div>
-    </div>
-    <div class="link-social">
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-linkedin-in"></i>
-      <i class="fa-brands fa-youtube"></i>
-    </div>
-  </footer>
+  <div id="footer"></div>
   <!--END FOOTER-->
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $.get('../helpers/navbar.html', (res) => {
+      $('#navbar').html(res)
+    })
+  });
+
+  $(document).ready(function () {
+    $.get('../helpers/footer.html', (res) => {
+      $('#footer').html(res)
+    })
+  });
+</script>
 
 </html>
