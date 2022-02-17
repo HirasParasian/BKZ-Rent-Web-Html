@@ -452,8 +452,8 @@ header.header-home .header-content .search-vehicles{
   font-size: 40px;
   width: 132px;
   height: 60px;
-  top : 410px;
-  right: 240px;
+  bottom: 28px;
+  right: 28px;
   transform: translate(50%, 50%);
   background-color:#FFEDDB;
   border-radius: 10px;
