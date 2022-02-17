@@ -735,37 +735,108 @@ display: none;
   footer.footer .row.text {
     display: none;
   }
+  .btn-profile-cancel{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-edit-password{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-save{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+ }
+ @media (min-width: 577px) and (max-width: 768px){
+  footer.footer .row.text {
+    display: none;
+  }
+  .btn-profile-cancel{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-edit-password{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-save{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+  }
  }
 
-/***** Medium devices (tablets, 768px and up) *****/
-@media (max-width: 768px) { 
-  
- }
 
 /***** Large devices (desktops, 992px and up) *****/
-@media (max-width: 992px) { 
+
+ @media (min-width: 769px) and (max-width: 992px){
   .footer-list{
     display: none;
   }
- }
- footer.footer{
-  text-align: center;
+  footer.footer{
+    text-align: center;
+   }
+  
+   footer.footer .description {
+    text-align: center;
+    width: auto;
+  }
+  footer.footer .row.text {
+    margin-bottom: 78px;
+    padding-top: 69px;
+    text-align: center;
+  }
+  .btn-profile-cancel{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-edit-password{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+  
+  .btn-profile-save{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
  }
 
- footer.footer .description {
-  text-align: center;
-  width: auto;
-}
-footer.footer .row.text {
-  margin-bottom: 78px;
-  padding-top: 69px;
-  text-align: center;
-}
 
 /***** X-Large devices (large desktops, 1200px and up) *****/
-@media (max-width: 1200px) { 
+@media (min-width: 993px) and (max-width: 1199.98px) { 
+  .btn-profile-cancel{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+  }
   
- }
+  .btn-profile-edit-password{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+  }
+  
+  .btn-profile-save{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+}
 
 /***** XX-Large devices (larger desktops, 1400px and up) *****/
 @media (max-width: 1400px) { 
