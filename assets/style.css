@@ -256,6 +256,11 @@ display: none;
   margin-top: 50px;
 }
 
+img .logo-bkz{
+  width: 100px;
+  height: 100px;
+}
+
 .btn-detail-fav{
   background-color: #BF9270;
   color: #FFEDDB;
