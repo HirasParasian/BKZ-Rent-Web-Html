@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Type</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <div id="navbar-after-login"></div>
+  <!--END NAVBAR-->
+  <div class="container">
+    <div class="row">
+      <div class="margin-reserv">
+        <a style="color: aliceblue;" href="#" class="href">
+          <i class="reserv-back fa-solid fa-chevron-left"></i>
+          <span class="span-reserv">Reservation</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 detail-left">
+        <img src="../assets/images/vehicle-detail.png" class="img-detail-vehicle1">
+      </div>
+      <div class="col-xl-5">
+        <div>
+          <h2><b>Fixie - Gray Only </b> </h2>
+          <h5 class="text-secondary"><b>Yogyakarta</b></h5><br>
+          <h5 class="text-danger"><b>No Prepayment</b></h5>
+          <br>
+          <div class="d-flex">
+            <button type="button" class="btn btn-secondary rounded btn-circle"><i
+                class="fa-solid fa-minus"></i></button>
+            <button type="button" class="btn bg-transparent btn-circle"><b>2</b></button>
+            <button type="button" class="btn btn-warning rounded btn-circle"><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div class="col-xl-12 reservation-date">
+            <label for="Reservation"> Reservation Date : </label>
+            <div class="mb-3 ">
+              <input id="datepicker" type="text" placeholder="Date"
+                class="form-control form-select form-date-reserv me-auto">
+            </div>
+            <div class="mb-3">
+              <select class="form-select form-date-reserv mx-9">
+                <option class="d-none">Location</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Bogor">Bogor</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-12">
+        <div>
+          <a href="#"><button type="button" class="btn-pay-now btn btn-info">Pay now : Rp. 178.000 </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--START FOOTER-->
+  <div id="footer"></div>
+  <!--END FOOTER-->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $.get('../helpers/navbar-after-login.html', (res) => {
+      $('#navbar-after-login').html(res)
+    })
+  });
+
+  $(document).ready(function () {
+    $.get('../helpers/footer.html', (res) => {
+      $('#footer').html(res)
+    })
+  });
+  $(document).ready(function () {
+    $('#datepicker').datepicker();
+
+  });
+</script>
+
+</html>
