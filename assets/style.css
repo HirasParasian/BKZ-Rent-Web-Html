@@ -208,6 +208,41 @@ display: none;
   border: none;
   margin-top: 57px;
 }
+.btn-detail-vehicle{
+  background-color: #BF9270;
+  color: #FFEDDB;
+  font-size: 24px;
+  font-weight: 900;
+  width: 470px;
+  height: 79px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-detail-reserv{
+  background-color:#FFCD61;
+  color: #FFEDDB;
+  font-size: 24px;
+  font-weight: 900;
+  width: 370px;
+  height: 79px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+}
+
+.btn-detail-fav{
+  background-color: #BF9270;
+  color: #FFEDDB;
+  font-size: 24px;
+  font-weight: 900;
+  width: 100px;
+  height: 79px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 20px;
+}
 /***** Button signUp at Login *****/
 .header-login .header-content .header-right form div button.btn-signup {
   background-color: #393939;
@@ -662,6 +697,12 @@ input.search-type-name{
 .for-margin-search{
   margin-top: 80px ;
 }
+
+.for-margin-search2{
+  margin-top: 60px ;
+  margin-bottom: 60px;
+  font-family: nunito;
+}
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
   border-color: black;
@@ -673,6 +714,28 @@ input.search-type-name{
 
 .custom-control-input:checked~.custom-control-label.green::before {
   background-color: green;
+}
+
+hr{
+  margin: 120px 120px;
+}
+
+.img-detail-vehicle{
+  width: 470px;
+  height: 370px;
+  margin-bottom: 30px;
+}
+.detail-left{
+  margin-bottom: 30px;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  padding: 6px 0px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: x-large;
+  margin-right: 30px;
 }
 
 @media (max-width: 500px) {
