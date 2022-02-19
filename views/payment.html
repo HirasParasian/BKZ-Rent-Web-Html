@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div id="navbar-after-login"></div>
+  <!--END NAVBAR-->
+
+  <div class="container">
+    <div class="row">
+      <div class="margin-reserv">
+        <a href="#" class="text-decoration-none href">
+          <i class="reserv-back fa-solid fa-chevron-left"></i>
+          <span class="span-reserv">Payment</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5">
+        <img src="../assets/images/vehicle-detail.png" alt="Bike" class="payment-img src">
+      </div>
+      <div class="col-xl-7">
+        <h2><b>Fixie - Gray Only </b> </h2>
+        <h5 class="text-secondary"><b>Yogyakarta</b></h5><br>
+        <h5 class="text-danger"><b>No Prepayment</b></h5><br><br>
+        <h4 class="code-payment">#FG1209878YZS</h4>
+        <buttton class="btn btn-copy btn-info fw-bold" type="button">Copy Booking Code</buttton>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 ">
+    <div class="row">
+      <div class="col-xl-5">
+        <form action="">
+          <fieldset disabled="disabled">
+            <div>
+              <input type="text" id="disabledTextInput"
+                class="bg-transparent border-2 border-secondary form-control quantity-payment"
+                placeholder="Quantity : 2 Bikes">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-xl-7">
+        <form action="">
+          <fieldset disabled="disabled">
+            <div>
+              <input type="text" id="disabledTextInput"
+                class="bg-transparent border-2 border-secondary form-control quantity-date"
+                placeholder="Reservation Date    :     Jan 18 - 20 2021">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 ">
+    <div class="row">
+      <div class="col-xl-5">
+        <form action="">
+          <fieldset disabled="disabled">
+            <div class="bg-transparent fw-bold border-2 border-secondary form-control quantity-detail">
+              <label class="text-dark" for="">Order Details : </label><br>
+              <label class="text-secondary pt-4" for="">1 Bike : Rp. 78.000</label><br>
+              <label class="text-secondary pt-1" for="">1 Bike : Rp. 78.000</label><br>
+              <label class="text-dark pt-5" for="">Total : Rp. 156.000 </label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-xl-7">
+        <form action="">
+          <fieldset disabled="disabled">
+            <div class="bg-transparent fw-bold border-2 border-secondary form-control quantity-identity">
+              <label class="text-dark" for="">Identity : </label><br>
+              <label class="text-secondary pt-4" for="">Samantha Doe (+6290987682)</label><br>
+              <label class="text-secondary pt-1" for="">samanthadoe@mail.com</label><br>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 ">
+    <div class="row">
+      <div class="d-grid col-xl-3 d-flex text-center">
+        <label class="label-payment" for=""><br>
+          <h2 class="fw-bold">Payment Code : </h2>
+        </label>
+      </div>
+      <div class="col-xl">
+        <div
+          class="d-grid bg-transparent position-relative  fw-bold border-2 border-secondary form-control quantity-code">
+          <label class=" text-dark" for="">#FG1209878YZS </label><br>
+          <buttton class="btn btn-copy-copy btn-info fw-bold" type="button">Copy
+          </buttton>
+        </div>
+      </div>
+      <div class="col-xl">
+        <div class="mb-3 d-grid">
+          <select class="form-select bg-transparent border-2 form-select-payment mx-9">
+            <option class="d-none">Select Payment</option>
+            <option value="Bekasi">Cash</option>
+            <option value="Bandung">Transfer</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-xl-12 mt-5 mb-5">
+        <div class="d-grid gap-2">
+          <button class="btn-lg btn-pay-before btn-primary me-5" type="button">Pay before : 59:30</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--START FOOTER-->
+  <div id="footer"></div>
+  <!--END FOOTER-->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $.get('../helpers/navbar-after-login.html', (res) => {
+      $('#navbar-after-login').html(res)
+    })
+  });
+
+  $(document).ready(function () {
+    $.get('../helpers/footer.html', (res) => {
+      $('#footer').html(res)
+    })
+  });
+  $(document).ready(function () {
+    $('#datepicker').datepicker();
+
+  });
+</script>
+
+</html>

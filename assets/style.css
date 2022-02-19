@@ -463,7 +463,7 @@ header.header-home .header-content span{
 }
 .form-date-reserv{
   margin-top: 17px;
-  color: rgba(255, 255, 255, 0.5);
+  color: black(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
   width: 320px;
@@ -782,6 +782,83 @@ hr{
   text-align: center;
   font-size: x-large;
   margin-right: 30px;
+}
+.code-payment{
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+.payment-img{
+  width: 452px;
+  height: 317px;
+}
+
+.btn-copy {
+  background-color: #BF9270;
+  border-color: #EDCDBB;
+  margin-top: 46px;
+}
+
+.quantity-payment{
+  width: 452px;
+  height: 107px;
+  text-align: center;
+}
+
+.quantity-date{
+  width: 681px;
+  height: 107px;
+  text-align: center;
+}
+
+.quantity-detail{
+  height: 245px;
+  width: 452px;
+  padding-left: 65px;
+  padding-top: 35px;
+}
+
+.quantity-identity{
+  width: 681px;
+  height: 245px;
+  padding-left: 65px;
+  padding-top: 70px;
+}
+
+.quantity-code{
+  width: 481px;
+  height: 80px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 42px;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+.label-payment{
+  height: 80px;
+}
+
+.btn-copy-copy{
+  position: absolute;
+  right: 12px;
+  width: 124px;
+  height: 42px;
+  bottom: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #BF9270;
+  border-color: #EDCDBB;
+}
+
+.form-select-payment{
+  width: 398px;
+  height: 80px;
+  border-color: grey;
+}
+
+.btn-pay-before{
+  background-color: #BF9270;
+  border-color: #EDCDBB;
 }
 
 @media (max-width: 500px) {
