@@ -1078,6 +1078,51 @@ display: none;
     height: 60px;
 
   }
+  .center-media{
+    text-align: center;
+  }
+  .label-payment{
+    margin-left:100px;
+  }
+  .quantity-code{
+    margin-left:100px;
+  }
+  .form-select-payment{
+    margin-left:150px;
+    width: 480px;
+    
+  }
+  .quantity-identity{
+    width: 480px;
+    height: 245px;
+    margin-left:100px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-detail{
+    width: 480px;
+    height: 245px;
+    margin-left:100px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-date{
+    margin-left:100px;  
+    width: 480px;
+    margin-top: 10px;
+  }
+  .quantity-payment{
+    margin-left:100px;  
+    width: 480px;
+  }
+  .media-center{
+    margin-left:  0px;  
+  }
+  .btn-pay-before{
+    margin-left: 80px;
+  }
  }
  @media (min-width: 577px) and (max-width: 768px){
   footer.footer .row.text {
@@ -1123,6 +1168,54 @@ display: none;
     width: 490px;
     height: 60px;
 
+  }
+  .center-media{
+    text-align: center;
+  }
+  .center-media{
+    text-align: center;
+  }
+  .label-payment{
+    margin-left:150px;
+  }
+  .quantity-code{
+    margin-left:150px;
+  }
+  .form-select-payment{
+    margin-left:150px;
+    width: 480px;
+    
+  }
+  .quantity-identity{
+    width: 480px;
+    height: 245px;
+    margin-left:150px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-detail{
+    width: 480px;
+    height: 245px;
+    margin-left:150px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-date{
+    margin-left:150px;  
+    width: 480px;
+    margin-top: 10px;
+  }
+  .quantity-payment{
+    margin-left:150px;  
+    width: 480px;
+  }
+  .media-center{
+    margin-left:150px;  
+  }
+  .btn-pay-before{
+    margin-left: 100px;
   }
  }
 
@@ -1196,6 +1289,54 @@ display: none;
     height: 70px;
 
   }
+  .center-media{
+    text-align: center;
+  }
+  .center-media{
+    text-align: center;
+  }
+  .label-payment{
+    margin-left:300px;
+  }
+  .quantity-code{
+    margin-left:200px;
+  }
+  .form-select-payment{
+    margin-left:200px;
+    width: 480px;
+    
+  }
+  .quantity-identity{
+    width: 480px;
+    height: 245px;
+    margin-left:200px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-detail{
+    width: 480px;
+    height: 245px;
+    margin-left:200px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-date{
+    margin-left:200px;  
+    width: 480px;
+    margin-top: 10px;
+  }
+  .quantity-payment{
+    margin-left:200px;  
+    width: 480px;
+  }
+  .media-center{
+    margin-left:200px;  
+  }
+  .btn-pay-before{
+    margin-left: 100px;
+  }
  }
 
 
@@ -1226,10 +1367,58 @@ display: none;
     height: 70px;
 
   }
+  .center-media{
+    text-align: center;
+  }
+  .label-payment{
+    margin-left:300px;
+  }
+  .quantity-code{
+    margin-left:200px;
+  }
+  .form-select-payment{
+    margin-left:200px;
+    width: 480px;
+    
+  }
+  .quantity-identity{
+    width: 480px;
+    height: 245px;
+    margin-left:200px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-detail{
+    width: 480px;
+    height: 245px;
+    margin-left:200px;
+    margin-top: 10px;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+  .quantity-date{
+    margin-left:200px;  
+    width: 480px;
+    margin-top: 10px;
+  }
+  .quantity-payment{
+    margin-left:200px;  
+    width: 480px;
+  }
+  .media-center{
+    margin-left:200px;  
+  }
+  .btn-pay-before{
+    margin-left: 100px;
+  }
 
 }
 
 /***** XX-Large devices (larger desktops, 1400px and up) *****/
-@media (max-width: 1400px) { 
-  
+@media  (min-width: 1200px) and (max-width: 1400px) { 
+  .form-select-payment{
+  margin-left: 285px;
+  width: 480px;
+  }
  }
