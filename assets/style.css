@@ -487,6 +487,7 @@ header.header-home .header-content .search-vehicles{
 .main .popular{
   font-family: 'Playfair Display', serif;
   margin-left:144px;
+  margin-right: 144px;
   margin-top: 81px;
   margin-bottom: 55px;
 }
@@ -1059,6 +1060,24 @@ display: none;
     width: 140px;
     height: 120px;
   }
+  .main .popular{
+    font-family: 'Playfair Display', serif;
+    margin-left:144px;
+    margin-right: 300px;
+    margin-top: 81px;
+    margin-bottom: 55px;
+  }
+  .main .popular .row {
+    margin-right: 220px;
+  }
+  .btn-pay-now{
+
+    font-size: 20px;
+    font-weight: 900;
+    width: 450px;
+    height: 60px;
+
+  }
  }
  @media (min-width: 577px) and (max-width: 768px){
   footer.footer .row.text {
@@ -1096,6 +1115,14 @@ display: none;
   .for-img-history{
     width: 140px;
     height: 120px;
+  }
+  .btn-pay-now{
+
+    font-size: 24px;
+    font-weight: 900;
+    width: 490px;
+    height: 60px;
+
   }
  }
 
@@ -1161,6 +1188,14 @@ display: none;
   .arrow-filter{
     padding-left: 30px;
   }
+  .btn-pay-now{
+
+    font-size: 24px;
+    font-weight: 900;
+    width: 690px;
+    height: 70px;
+
+  }
  }
 
 
@@ -1182,6 +1217,14 @@ display: none;
     width: 250px;
     height: 60px;
     font-size: 18px;
+  }
+  .btn-pay-now{
+
+    font-size: 24px;
+    font-weight: 900;
+    width: 790px;
+    height: 70px;
+
   }
 
 }
