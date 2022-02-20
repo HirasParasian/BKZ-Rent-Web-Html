@@ -447,16 +447,15 @@ header.header-home .header-content span{
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
-  width: 220px;
+  width: 200px;
 }
 
 .form-date-home{
-  margin-left:36px;
   margin-top: 17px;
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
-  width: 220px;
+  width: 190px;
 }
 .reservation-date{
   margin-top: 30px;
@@ -487,19 +486,16 @@ header.header-home .header-content .search-vehicles{
 .main .popular{
   font-family: 'Playfair Display', serif;
   margin-left:144px;
-  margin-right: 144px;
+  margin-right: 120px;
   margin-top: 81px;
   margin-bottom: 55px;
 }
 
 
-.main .popular .row .col-md-3{
-  margin-right: -10px;
-}
 
-.main .popular .row{
+/* .main .popular .row{ 
   margin-right: 120px
-}
+} */
 
 .main .popular .row .img1{
   position: relative;
@@ -563,6 +559,7 @@ header.header-home .header-content .search-vehicles{
   color: #FFCD61;
   font-size: 23px;
   margin-top: 104px;
+  text-align: center;
 }
 
 .testi-text{
@@ -1123,8 +1120,24 @@ display: none;
   .btn-pay-before{
     margin-left: 80px;
   }
+
  }
  @media (min-width: 577px) and (max-width: 768px){
+  .testi-text{
+    width: 450px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .main .popular{
+    font-family: 'Playfair Display', serif;
+    margin-left:80px;
+  }
+
+  
   footer.footer .row.text {
     display: none;
   }
@@ -1216,6 +1229,9 @@ display: none;
   }
   .btn-pay-before{
     margin-left: 100px;
+  }
+  .form-date-home{
+    margin-left:190px;
   }
  }
 
@@ -1337,6 +1353,9 @@ display: none;
   .btn-pay-before{
     margin-left: 100px;
   }
+  .form-date-home{
+    margin-left:130px;
+  }
  }
 
 
@@ -1412,13 +1431,28 @@ display: none;
   .btn-pay-before{
     margin-left: 100px;
   }
+  .form-date-home{
+    margin-left:75px;
+  }
 
 }
 
 /***** XX-Large devices (larger desktops, 1400px and up) *****/
-@media  (min-width: 1200px) and (max-width: 1400px) { 
+@media  (min-width: 1200px) and (max-width: 1420px) { 
   .form-select-payment{
   margin-left: 285px;
   width: 480px;
   }
+  .next-index i{
+    position: absolute;
+    color:#BF9270;
+    font-size: 100px; 
+    Right: 30%;
+    background-color: #393939;
+    border-radius: 100px;
+  }
+  .form-date-home{
+    margin-left:0px;
+  }
+  
  }
