@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservation</title>
+  <title>History</title>
   <!--Bootstrap CDN-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
     integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
@@ -32,6 +32,62 @@
   <!--NAVBAR-->
   <div id="navbar-after-login"></div>
   <!--END NAVBAR-->
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 d-flex ">
+          <div class="input-group mb-3 rounded mx-auto button-type-name2 ">
+            <input type="text" class="btn-search-type form-control bg-transparent " placeholder="Search History">
+            <button class="btn " type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+          </div>
+          <div class="mb-3 cover-filter rounded">
+            <a class="nav-link filter-history" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Filter <i class="ms-5 fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu ul-for-filter orange-200" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Type</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#">Date Added</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Name</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Favorite Product</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="border border-2 border-secondary text-center pt-4 ">
+            <h5 class="text-center pb-4">New Arrival</h5>
+            <div class="position-relative mb-4">
+              <img src="../assets/images/car2.png" alt="" class="src img-arrival rounded">
+              <form class="text-img-2">
+                <button type="submit" class="btn head">Lamborghini </button>
+                <button type="submit" class="btn">South Jakarta</button>
+              </form>
+            </div>
+            <div class="position-relative mb-4">
+              <img src="../assets/images/car3.png" alt="" class="src img-arrival rounded">
+              <form class="text-img-2">
+                <button type="submit" class="btn head">White Jeep </button>
+                <button type="submit" class="btn">Kalimantan</button>
+              </form>
+            </div>
+            <div class="text-center">
+              <h5>View More</h5>
+              <i class="fa-solid fa-angle-down fa-2xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <!--START FOOTER-->
   <div id="footer"></div>
