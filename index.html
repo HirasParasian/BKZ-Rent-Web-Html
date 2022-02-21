@@ -36,10 +36,10 @@
     <div class="header-content">
       <div class="">
         <div>
-          <h1>Explore and Travel</h1>
+          <h1 class="h1-home">Explore and Travel</h1>
         </div>
         <div>
-          <p>Vehicle Finder</p>
+          <p class="h1-home">Vehicle Finder</p>
         </div>
         <div>
           <span class="border-top border-2"></span>
@@ -48,13 +48,13 @@
           <div class="m-4">
             <form action="/examples/actions/confirmation.php" method="post">
               <div>
-                <div class="mb-3">
+                <div class="mb-3 col-6 d-inline-flex">
                   <input type="email" class="form-type-vehicle form-control"
                     placeholder="Type the vehicle (ex. motorbike">
                 </div>
               </div>
               <div class="d-flex">
-                <div class="col-3">
+                <div class="col-3 d-inline-flex">
                   <div class="mb-3">
                     <select class="form-select form-location-home mx-9">
                       <option class="d-none">Location</option>
@@ -64,8 +64,8 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-3">
-                  <div class="mb-3 ">
+                <div class="col-3 d-inline-flex">
+                  <div class="mb-3  date-home-picker">
                     <input id="datepicker" type="text" placeholder="Date"
                       class="form-control form-select form-date-home me-auto">
                   </div>
@@ -125,7 +125,7 @@
                 <button type="submit" class="btn head">Malioboro</button>
                 <button type="submit" class="btn">Yogyakarta</button>
               </form>
-              <div class="next next-index">
+              <div class="next next-index d-none d-xxl-block">
                 <i class="fa-solid fa-circle-chevron-right"></i>
               </div>
             </div>
@@ -138,7 +138,7 @@
       <h2><b> Testimonials </b></h2>
       <div class="row">
         <div class="col">
-          <div class="testi-text-star">
+          <div class="testi-text-star d-flex">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -153,9 +153,9 @@
           <h5>Founder Circle</h5>
         </div>
         <div class="col">
-          <div class=" d-flex justify-content-center text-center mt-5">
-            <div class="position-relative">
-              <img class=" rounded" src="../assets/images/profil-edward.png" alt="">
+          <div class=" d-flex justify-content-center img-home-center text-center mt-5">
+            <div class="position-relative ">
+              <img class=" edward-rounded rounded" src="../assets/images/profil-edward.png" alt="">
               <form class="text-next">
                 <i class="fa-solid fa-circle-chevron-left"></i>
                 <i class="fa-solid fa-circle-chevron-right"></i>
