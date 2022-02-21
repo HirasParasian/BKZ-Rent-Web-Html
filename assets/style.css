@@ -921,6 +921,9 @@ hr{
 .arrow-filter{
   padding-left: 50px;
 }
+.container-payment{
+  margin-left: 144px;
+}
 @media (max-width: 500px) {
   .header-login .header-content .header-right {
     background-image: url(../assets/images/login-mobile.png);
@@ -1082,43 +1085,47 @@ display: none;
     margin-left:100px;
   }
   .quantity-code{
-    margin-left:100px;
+    margin-left:50px;
+    width: 400px;
   }
   .form-select-payment{
-    margin-left:150px;
-    width: 480px;
+    margin-left:50px;
+    width: 400px;
     
   }
   .quantity-identity{
-    width: 480px;
+    width: 400px;
     height: 245px;
-    margin-left:100px;
+    margin-left:50px;
     margin-top: 10px;
     padding-left: 65px;
     padding-top: 30px;
   }
   .quantity-detail{
-    width: 480px;
+    width: 400px;
     height: 245px;
-    margin-left:100px;
+    margin-left:50px;
     margin-top: 10px;
     padding-left: 65px;
     padding-top: 30px;
   }
   .quantity-date{
-    margin-left:100px;  
-    width: 480px;
+    margin-left:50px;  
+    width: 400px;
     margin-top: 10px;
   }
   .quantity-payment{
-    margin-left:100px;  
-    width: 480px;
+    margin-left:50px;  
+    width: 400px;
   }
   .media-center{
     margin-left:  0px;  
   }
   .btn-pay-before{
-    margin-left: 80px;
+    margin-left: 50px;
+  }
+  .container-payment{
+    margin-left: 40px;
   }
 
  }
@@ -1192,17 +1199,17 @@ display: none;
     margin-left:150px;
   }
   .quantity-code{
-    margin-left:150px;
+    margin-left:100px;
   }
   .form-select-payment{
-    margin-left:150px;
+    margin-left:100px ;
     width: 480px;
     
   }
   .quantity-identity{
     width: 480px;
     height: 245px;
-    margin-left:150px;
+    margin-left:100px;
     margin-top: 10px;
     padding-left: 65px;
     padding-top: 30px;
@@ -1210,28 +1217,38 @@ display: none;
   .quantity-detail{
     width: 480px;
     height: 245px;
-    margin-left:150px;
+    margin-left:100px;
     margin-top: 10px;
     padding-left: 65px;
     padding-top: 30px;
   }
   .quantity-date{
-    margin-left:150px;  
+    margin-left:100px;  
     width: 480px;
     margin-top: 10px;
   }
   .quantity-payment{
-    margin-left:150px;  
+    margin-left:100px;  
     width: 480px;
   }
   .media-center{
-    margin-left:150px;  
+    margin-left:100px;  
   }
   .btn-pay-before{
     margin-left: 100px;
   }
   .form-date-home{
     margin-left:190px;
+  }
+  .center-navbar{
+    text-align: center;
+  }
+  nav.navbar button.btn-register{
+    margin-right: 45px;
+  }
+  .container-payment{
+    margin-left: 0px;
+    padding-left: 0px;
   }
  }
 
@@ -1356,6 +1373,25 @@ display: none;
   .form-date-home{
     margin-left:130px;
   }
+  nav.navbar button.btn-login{
+  text-align: center;
+  }
+  nav.navbar a.navbar img.rounded-pill{
+    text-align: center;
+  }
+  
+  nav.navbar button.btn-register{
+    margin-right: 45px;
+  }
+  .center-navbar{
+    text-align: center;
+  }
+  .text-top h5{
+    font-size: 46px;
+  }
+  .container-payment{
+    margin-left: 60px;
+  }
  }
 
 
@@ -1434,6 +1470,9 @@ display: none;
   .form-date-home{
     margin-left:75px;
   }
+  .text-top h5{
+    font-size: 66px;
+  }
 
 }
 
@@ -1453,6 +1492,9 @@ display: none;
   }
   .form-date-home{
     margin-left:0px;
+  }
+  .text-top h5{
+    font-size: 76px;
   }
   
  }
